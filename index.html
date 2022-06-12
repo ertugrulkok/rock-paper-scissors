@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="game">
+      <div class="title">Rock Paper Scissor</div>
+
+      <div class="score">
+        <div class="playerScore">
+          <h2>Player</h2>
+          <p class="p-count count">0</p>
+        </div>
+        <div class="result" id="result">Result</div>
+        <div class="computerScore">
+          <h2>Computer</h2>
+          <p class="c-count count">0</p>
+        </div>
+        
+      </div>
+      <div id="punches" class="punches">
+          <img class=" punch punch-img" id="left-punch" src="./blank.jpg" alt="">
+          <img class="punch" src="./Street_Fighter_VS_logo.png" alt="">
+          <img class=" punch punch-img" id="right-punch" src="./blank.jpg" alt="">
+        </div>
+      <div id="inputs" class="inputs">
+        <span id="user-choice"></span>
+        <span id="computer-choice"></span>
+      </div>
+
+      <div id="moved" class="moved">Choose your move</div>
+            <button class="reload"></button>
+          <div id="move" class="move"></div>
+         <div class="movesleft">Moves Left: 10</div>
+
+      <div class="options">
+        <img name="buttons" id="rock" class="rock" src="./rock.png" alt="">
+        <img name="buttons" id="scissors" class="rock" src="./scissors.png" alt="">
+        <img name="buttons" id="paper" class="rock" src="./paper.png" alt="">
+        
+      </div>
+
+     
+
+   
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
